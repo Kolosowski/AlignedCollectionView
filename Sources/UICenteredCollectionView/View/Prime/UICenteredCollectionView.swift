@@ -4,7 +4,7 @@ public final class UICenteredCollectionView: UICollectionView {
 	
 	// MARK: - Life Cycle
 	
-	public init(_ layout: UICenteredCollectionViewFlowLayout) {
+	public init(_ layout: UICenteredCollectionViewFlowLayout = .init()) {
 		super.init(frame: .zero, collectionViewLayout: layout)
 	}
 	
