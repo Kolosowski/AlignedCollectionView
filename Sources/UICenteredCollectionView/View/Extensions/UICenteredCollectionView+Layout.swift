@@ -22,9 +22,7 @@ extension UICenteredCollectionView {
 		
 		if contentSize.height < intrinsicContentSize.height {
 			invalidateIntrinsicContentSize()
-		}
-		
-		if frame.height.isZero {
+		} else if frame.height.isZero {
 			frame.size.height = intrinsicContentSize.height
 		}
 	}
