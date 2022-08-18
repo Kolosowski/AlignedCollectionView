@@ -28,6 +28,7 @@ github "Kolosowski/UICenteredCollectionView"
 ```
 
 ## Usage
+`UICenteredCollectionView` works with items size, edge insets and vertical scrolling.
 Created just like simple `UICollectionView` object where you can perform custom setup to layout or view.
 ```swift
 import UICenteredCollectionView
