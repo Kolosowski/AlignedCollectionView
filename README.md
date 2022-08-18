@@ -11,7 +11,7 @@ Allows you to center collection items with automatic/configured sizes also dynam
 ## Installation
 * Swift Package Manager
 
-Open *XCode* and then clicl **File** -> **Add Packages...**. In search field enter repository URL then tap **Copy Dependency** button.
+Open *XCode* and then clic **File** -> **Add Packages...**. In search field enter repository URL then tap **Copy Dependency** button.
 
 * Cocoa Pods
 
