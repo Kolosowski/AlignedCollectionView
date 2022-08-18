@@ -20,7 +20,7 @@ extension UICenteredCollectionView {
 	public override func layoutSubviews() {
 		super.layoutSubviews()
 		
-		if contentSize.height != intrinsicContentSize.height {
+		if contentSize.height < intrinsicContentSize.height {
 			invalidateIntrinsicContentSize()
 		}
 		
