@@ -5,9 +5,9 @@ public final class UICenteredCollectionViewFlowLayout: UICollectionViewFlowLayou
 	// MARK: - Life Cycle
 	
 	public init(
-		interItemSpacing: CGFloat,
-		lineSpacing: CGFloat,
-		isAutomaticItemSize: Bool
+		interItemSpacing: CGFloat = 10,
+		lineSpacing: CGFloat = 10,
+		isAutomaticItemSize: Bool = false
 	) {
 		super.init()
 		
