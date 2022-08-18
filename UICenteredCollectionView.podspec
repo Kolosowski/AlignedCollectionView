@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name = “UICenteredCollectionView”
+    s.name = "UICenteredCollectionView"
     s.version = "1.0.0"
     s.summary = "Subclass of the UICollectionView instance with customized flow layout and dynamic size calculation"
     s.homepage = "https://github.com/Kolosowski/UICenteredCollectionView"
