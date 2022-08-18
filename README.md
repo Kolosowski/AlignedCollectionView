@@ -10,11 +10,19 @@ Allows you to center collection items with automatic/configured sizes also dynam
 
 ## Installation
 * Swift Package Manager
+Open *XCode* and then clicl **File** -> **Add Packages...**. In search field enter repository URL then tap **Copy Dependency** button.
 
 * Cocoa Pods
+Add the following line to your *Podfile* then run `pod install`
+```
+pod "UICenteredCollectionView"
+```
 
 * Chartage
-
+Add the following to your *Cartfile*
+```
+github "Kolosowski/UICenteredCollectionView"
+```
 
 ## Usage
 Created just like simple UICollectionView object where you can perform custom setup to layout or view.
