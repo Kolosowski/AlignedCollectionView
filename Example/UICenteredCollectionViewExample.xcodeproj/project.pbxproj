@@ -9,19 +9,32 @@
 /* Begin PBXBuildFile section */
 		78E0FA2928AE6690005B47DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA2828AE6690005B47DE /* AppDelegate.swift */; };
 		78E0FA2D28AE6690005B47DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA2C28AE6690005B47DE /* ViewController.swift */; };
-		78E0FA3028AE6690005B47DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E0FA2E28AE6690005B47DE /* Main.storyboard */; };
 		78E0FA3228AE6691005B47DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E0FA3128AE6691005B47DE /* Assets.xcassets */; };
 		78E0FA3528AE6691005B47DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E0FA3328AE6691005B47DE /* LaunchScreen.storyboard */; };
+		78E0FA4128AE7CD7005B47DE /* UICenteredCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = 78E0FA4028AE7CD7005B47DE /* UICenteredCollectionView */; };
+		78E0FA4828AE7E57005B47DE /* ViewController+SetupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA4728AE7E57005B47DE /* ViewController+SetupViews.swift */; };
+		78E0FA4A28AE7E68005B47DE /* ViewController+SetupLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA4928AE7E68005B47DE /* ViewController+SetupLayout.swift */; };
+		78E0FA4C28AE7E7D005B47DE /* ViewController+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA4B28AE7E7D005B47DE /* ViewController+UICollectionViewDelegateFlowLayout.swift */; };
+		78E0FA4E28AE7E93005B47DE /* ViewController+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA4D28AE7E93005B47DE /* ViewController+UICollectionViewDataSource.swift */; };
+		78E0FA5328AE7ED4005B47DE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA5228AE7ED4005B47DE /* CollectionViewCell.swift */; };
+		78E0FA5528AE7EF0005B47DE /* CollectionViewCell+SetupLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA5428AE7EF0005B47DE /* CollectionViewCell+SetupLayout.swift */; };
+		78E0FA5728AE7F51005B47DE /* CollectionViewCell+SetupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA5628AE7F51005B47DE /* CollectionViewCell+SetupViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78E0FA2528AE6690005B47DE /* UICenteredCollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICenteredCollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78E0FA2828AE6690005B47DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78E0FA2C28AE6690005B47DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		78E0FA2F28AE6690005B47DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78E0FA3128AE6691005B47DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78E0FA3428AE6691005B47DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78E0FA3628AE6691005B47DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78E0FA4728AE7E57005B47DE /* ViewController+SetupViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SetupViews.swift"; sourceTree = "<group>"; };
+		78E0FA4928AE7E68005B47DE /* ViewController+SetupLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SetupLayout.swift"; sourceTree = "<group>"; };
+		78E0FA4B28AE7E7D005B47DE /* ViewController+UICollectionViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UICollectionViewDelegateFlowLayout.swift"; sourceTree = "<group>"; };
+		78E0FA4D28AE7E93005B47DE /* ViewController+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
+		78E0FA5228AE7ED4005B47DE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		78E0FA5428AE7EF0005B47DE /* CollectionViewCell+SetupLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionViewCell+SetupLayout.swift"; sourceTree = "<group>"; };
+		78E0FA5628AE7F51005B47DE /* CollectionViewCell+SetupViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionViewCell+SetupViews.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E0FA4128AE7CD7005B47DE /* UICenteredCollectionView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +68,84 @@
 		78E0FA2728AE6690005B47DE /* UICenteredCollectionViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				78E0FA2828AE6690005B47DE /* AppDelegate.swift */,
-				78E0FA2C28AE6690005B47DE /* ViewController.swift */,
-				78E0FA2E28AE6690005B47DE /* Main.storyboard */,
-				78E0FA3128AE6691005B47DE /* Assets.xcassets */,
-				78E0FA3328AE6691005B47DE /* LaunchScreen.storyboard */,
-				78E0FA3628AE6691005B47DE /* Info.plist */,
+				78E0FA4328AE7E0E005B47DE /* Application */,
+				78E0FA4228AE7E08005B47DE /* View */,
+				78E0FA4428AE7E32005B47DE /* Supporting */,
 			);
 			path = UICenteredCollectionViewExample;
+			sourceTree = "<group>";
+		};
+		78E0FA4228AE7E08005B47DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78E0FA4528AE7E42005B47DE /* Prime */,
+				78E0FA4F28AE7EBE005B47DE /* Subviews */,
+				78E0FA4628AE7E47005B47DE /* Extensions */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78E0FA4328AE7E0E005B47DE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				78E0FA2828AE6690005B47DE /* AppDelegate.swift */,
+				78E0FA3628AE6691005B47DE /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		78E0FA4428AE7E32005B47DE /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				78E0FA3128AE6691005B47DE /* Assets.xcassets */,
+				78E0FA3328AE6691005B47DE /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		78E0FA4528AE7E42005B47DE /* Prime */ = {
+			isa = PBXGroup;
+			children = (
+				78E0FA2C28AE6690005B47DE /* ViewController.swift */,
+			);
+			path = Prime;
+			sourceTree = "<group>";
+		};
+		78E0FA4628AE7E47005B47DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78E0FA4728AE7E57005B47DE /* ViewController+SetupViews.swift */,
+				78E0FA4928AE7E68005B47DE /* ViewController+SetupLayout.swift */,
+				78E0FA4B28AE7E7D005B47DE /* ViewController+UICollectionViewDelegateFlowLayout.swift */,
+				78E0FA4D28AE7E93005B47DE /* ViewController+UICollectionViewDataSource.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78E0FA4F28AE7EBE005B47DE /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				78E0FA5128AE7ECD005B47DE /* Prime */,
+				78E0FA5028AE7EC9005B47DE /* Extensions */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		78E0FA5028AE7EC9005B47DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78E0FA5628AE7F51005B47DE /* CollectionViewCell+SetupViews.swift */,
+				78E0FA5428AE7EF0005B47DE /* CollectionViewCell+SetupLayout.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78E0FA5128AE7ECD005B47DE /* Prime */ = {
+			isa = PBXGroup;
+			children = (
+				78E0FA5228AE7ED4005B47DE /* CollectionViewCell.swift */,
+			);
+			path = Prime;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +164,9 @@
 			dependencies = (
 			);
 			name = UICenteredCollectionViewExample;
+			packageProductDependencies = (
+				78E0FA4028AE7CD7005B47DE /* UICenteredCollectionView */,
+			);
 			productName = UICenteredCollectionViewExample;
 			productReference = 78E0FA2528AE6690005B47DE /* UICenteredCollectionViewExample.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 78E0FA1C28AE6690005B47DE;
+			packageReferences = (
+				78E0FA3F28AE7CD7005B47DE /* XCRemoteSwiftPackageReference "UICenteredCollectionView" */,
+			);
 			productRefGroup = 78E0FA2628AE6690005B47DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,7 +214,6 @@
 			files = (
 				78E0FA3528AE6691005B47DE /* LaunchScreen.storyboard in Resources */,
 				78E0FA3228AE6691005B47DE /* Assets.xcassets in Resources */,
-				78E0FA3028AE6690005B47DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +224,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E0FA5528AE7EF0005B47DE /* CollectionViewCell+SetupLayout.swift in Sources */,
+				78E0FA4A28AE7E68005B47DE /* ViewController+SetupLayout.swift in Sources */,
 				78E0FA2D28AE6690005B47DE /* ViewController.swift in Sources */,
 				78E0FA2928AE6690005B47DE /* AppDelegate.swift in Sources */,
+				78E0FA5328AE7ED4005B47DE /* CollectionViewCell.swift in Sources */,
+				78E0FA4828AE7E57005B47DE /* ViewController+SetupViews.swift in Sources */,
+				78E0FA4E28AE7E93005B47DE /* ViewController+UICollectionViewDataSource.swift in Sources */,
+				78E0FA4C28AE7E7D005B47DE /* ViewController+UICollectionViewDelegateFlowLayout.swift in Sources */,
+				78E0FA5728AE7F51005B47DE /* CollectionViewCell+SetupViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		78E0FA2E28AE6690005B47DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78E0FA2F28AE6690005B47DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78E0FA3328AE6691005B47DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,10 +373,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93KKDVN863;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UICenteredCollectionViewExample/Info.plist;
+				INFOPLIST_FILE = UICenteredCollectionViewExample/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,10 +400,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93KKDVN863;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UICenteredCollectionViewExample/Info.plist;
+				INFOPLIST_FILE = UICenteredCollectionViewExample/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,6 +440,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78E0FA3F28AE7CD7005B47DE /* XCRemoteSwiftPackageReference "UICenteredCollectionView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kolosowski/UICenteredCollectionView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78E0FA4028AE7CD7005B47DE /* UICenteredCollectionView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78E0FA3F28AE7CD7005B47DE /* XCRemoteSwiftPackageReference "UICenteredCollectionView" */;
+			productName = UICenteredCollectionView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78E0FA1D28AE6690005B47DE /* Project object */;
 }
