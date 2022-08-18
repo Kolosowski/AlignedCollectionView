@@ -22,13 +22,13 @@ pod "UICenteredCollectionView"
 
 * Chartage
 
-Add the following to your *Cartfile*
+Add the following to your *Cartfile* then run `carthage update --use-xcframeworks`
 ```
 github "Kolosowski/UICenteredCollectionView"
 ```
 
 ## Usage
-Created just like simple UICollectionView object where you can perform custom setup to layout or view.
+Created just like simple `UICollectionView` object where you can perform custom setup to layout or view.
 ```swift
 import UICenteredCollectionView
 
