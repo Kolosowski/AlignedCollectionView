@@ -16,10 +16,6 @@ let package = Package(
 		.target(
 			name: "UICenteredCollectionView",
 			dependencies: []
-		),
-		.testTarget(
-			name: "UICenteredCollectionViewTests",
-			dependencies: ["UICenteredCollectionView"]
-		),
+		)
 	]
 )
