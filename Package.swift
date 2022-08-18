@@ -20,5 +20,6 @@ let package = Package(
 			name: "UICenteredCollectionView",
 			dependencies: []
 		)
-	]
+	],
+	swiftLanguageVersions: [.v5]
 )
