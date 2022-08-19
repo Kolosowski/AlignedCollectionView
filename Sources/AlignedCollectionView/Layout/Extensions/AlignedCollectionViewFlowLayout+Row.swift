@@ -6,6 +6,7 @@ extension AlignedCollectionViewFlowLayout {
 		
 		// MARK: - Stored Properties - Spacing
 		
+		private let alignment: Alignment
 		private let interItemSpacing: CGFloat
 		
 		// MARK: - Stored Properties - Attributes
@@ -25,7 +26,8 @@ extension AlignedCollectionViewFlowLayout {
 		
 		// MARK: - Life Cycle
 		
-		init(interItemSpacing: CGFloat) {
+		init(alignment: Alignment, interItemSpacing: CGFloat) {
+			self.alignment = alignment
 			self.interItemSpacing = interItemSpacing
 		}
 		
@@ -35,7 +37,7 @@ extension AlignedCollectionViewFlowLayout {
 			attributes.append(attribute)
 		}
 		
-		func setupLayout(contentWidth: CGFloat, alignment: Alignment) {
+		func setupLayout(contentWidth: CGFloat) {
 			let padding: CGFloat
 			switch alignment {
 			case .left:

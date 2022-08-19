@@ -19,7 +19,7 @@ extension AlignedCollectionViewFlowLayout {
 			if currentRowVerticalCenter != $0.frame.midY {
 				currentRowVerticalCenter = $0.frame.midY
 				rows.append(
-					Row(interItemSpacing: minimumInteritemSpacing)
+					Row(alignment: alignment, interItemSpacing: minimumInteritemSpacing)
 				)
 			}
 			

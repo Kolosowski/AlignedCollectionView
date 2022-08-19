@@ -2,13 +2,13 @@ import UIKit
 
 public final class AlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
 	
-	let alignment: Alignment
+	var alignment: Alignment
 	
 	// MARK: - Life Cycle
 	
 	public init(
-		_ alignment: Alignment = .center,
-		isAutomaticItemSize: Bool = false
+		alignment: Alignment,
+		isAutomaticItemSize: Bool
 	) {
 		self.alignment = alignment
 		
