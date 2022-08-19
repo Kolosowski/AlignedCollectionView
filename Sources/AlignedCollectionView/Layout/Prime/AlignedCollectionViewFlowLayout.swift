@@ -5,14 +5,10 @@ public final class AlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
 	// MARK: - Life Cycle
 	
 	public init(
-		interItemSpacing: CGFloat = 10,
-		lineSpacing: CGFloat = 10,
 		isAutomaticItemSize: Bool = false
 	) {
 		super.init()
 		
-		minimumInteritemSpacing = interItemSpacing
-		minimumLineSpacing = lineSpacing
 		estimatedItemSize = isAutomaticItemSize ? UICollectionViewFlowLayout.automaticSize : .zero
 		scrollDirection = .vertical
 	}
