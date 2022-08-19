@@ -4,7 +4,7 @@ public final class AlignedCollectionView: UICollectionView {
 	
 	// MARK: - Life Cycle
 	
-	public init(_ layout: AlignedCollectionViewFlowLayout = .init(alignment: .center, isAutomaticItemSize: false)) {
+	public init(_ layout: AlignedCollectionViewFlowLayout) {
 		super.init(frame: .zero, collectionViewLayout: layout)
 	}
 	
