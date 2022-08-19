@@ -1,6 +1,7 @@
 # UICenteredCollectionView
 
 `UICenteredCollectionView` allows you to center items of any sizes (automatic or custom size), also it calculates self size depends on items size and edge insets (free to use custom size) and handles vertical scroll.
+
 ![home](https://user-images.githubusercontent.com/51852330/185559041-895e9a8a-441d-4dc3-9d1c-e4490a5e2240.png)
 
 
