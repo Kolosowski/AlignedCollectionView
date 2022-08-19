@@ -4,6 +4,9 @@ public final class AlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
 	
 	// MARK: - Stored Properties - Alignment
 	
+	/**
+	 Defines items alignment. Default value is `center`.
+	 */
 	var alignment: Alignment = .center
 	
 	// MARK: - Computed Properties - Automatic Size
