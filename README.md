@@ -1,8 +1,8 @@
 # AlignedCollectionView
 
-`AlignedCollectionView` allows you to align items left, center or right. You can align items of any sizes (automatic or custom size). Collection calculates self size depends on content size and edge insets (free to use custom size) and handles vertical scroll.
+`AlignedCollectionView` allows you to align items left, center or right. You can align items of any sizes (automatic or custom size). Collection calculates self size depends on content size and edge insets (free to use custom size) and handles **vertical** scroll.
 
-![home](https://user-images.githubusercontent.com/51852330/185559041-895e9a8a-441d-4dc3-9d1c-e4490a5e2240.png)
+![home](https://user-images.githubusercontent.com/51852330/185579810-c36d30ce-97be-4e0b-9fd8-1b6d150ce20b.png)
 
 
 ## Requirements
@@ -41,7 +41,7 @@ layout.minimumInteritemSpacing = 15
 let collectionView = AlignedCollectionView(layout)
 ```
 
-or use simplified version with default `UICollectionViewFlowLayout` values and center alignment:
+or use simplified version with default `UICollectionViewFlowLayout` values and **center** alignment:
 ```swift
 import AlignedCollectionView
 
