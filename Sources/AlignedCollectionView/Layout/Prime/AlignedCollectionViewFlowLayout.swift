@@ -7,11 +7,11 @@ public final class AlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
 	/**
 	 Defines items alignment. Default value is `center`.
 	 */
-	var alignment: Alignment = .center
+	public var alignment: Alignment = .center
 	
 	// MARK: - Computed Properties - Automatic Size
 	
-	var isAutomaticSize: Bool {
+	public var isAutomaticSize: Bool {
 		get {
 			estimatedItemSize == UICollectionViewFlowLayout.automaticSize
 		}
