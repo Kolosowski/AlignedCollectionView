@@ -45,5 +45,5 @@ or use simplified version with default UICollectionViewFlowLayout values and cen
 ```swift
 import UICenteredCollectionView
 
-let collectionView = UICenteredCollectionView()
+let collectionView = AlignedCollectionView()
 ```
