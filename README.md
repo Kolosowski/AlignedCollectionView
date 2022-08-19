@@ -43,7 +43,7 @@ let collectionView = AlignedCollectionView(layout)
 
 or use simplified version with default UICollectionViewFlowLayout values and center alignment:
 ```swift
-import UICenteredCollectionView
+import AlignmentCollectionView
 
 let collectionView = AlignedCollectionView()
 ```
