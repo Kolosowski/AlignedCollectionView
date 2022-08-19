@@ -2,19 +2,27 @@ import UIKit
 
 public final class AlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
 	
-	var alignment: Alignment
+	// MARK: - Stored Properties - Alignment
+	
+	var alignment: Alignment = .center
+	
+	// MARK: - Computed Properties - Automatic Size
+	
+	var isAutomaticSize: Bool {
+		get {
+			estimatedItemSize == UICollectionViewFlowLayout.automaticSize
+		}
+		
+		set {
+			estimatedItemSize = newValue ? UICollectionViewFlowLayout.automaticSize : .zero
+		}
+	}
 	
 	// MARK: - Life Cycle
 	
-	public init(
-		alignment: Alignment,
-		isAutomaticItemSize: Bool
-	) {
-		self.alignment = alignment
-		
+	public override init() {
 		super.init()
 		
-		estimatedItemSize = isAutomaticItemSize ? UICollectionViewFlowLayout.automaticSize : .zero
 		scrollDirection = .vertical
 	}
 	

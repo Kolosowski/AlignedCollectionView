@@ -4,7 +4,7 @@ extension AlignedCollectionViewFlowLayout {
 	
 	final class Row {
 		
-		// MARK: - Stored Properties - Spacing
+		// MARK: - Stored Properties - Layout
 		
 		private let alignment: Alignment
 		private let interItemSpacing: CGFloat
