@@ -1,10 +1,10 @@
 import UIKit
 
-public final class UICenteredCollectionView: UICollectionView {
+public final class AlignedCollectionView: UICollectionView {
 	
 	// MARK: - Life Cycle
 	
-	public init(_ layout: UICenteredCollectionViewFlowLayout = .init()) {
+	public init(_ layout: AlignedCollectionViewFlowLayout = .init()) {
 		super.init(frame: .zero, collectionViewLayout: layout)
 	}
 	

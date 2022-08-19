@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-	name: "UICenteredCollectionView",
+	name: "AlignedCollectionView",
 	platforms: [
 		.iOS(.v13)
 	],
 	products: [
 		.library(
-			name: "UICenteredCollectionView",
-			targets: ["UICenteredCollectionView"]
+			name: "AlignedCollectionView",
+			targets: ["AlignedCollectionView"]
 		),
 	],
 	dependencies: [],
 	targets: [
 		.target(
-			name: "UICenteredCollectionView",
+			name: "AlignedCollectionView",
 			dependencies: []
 		)
 	],

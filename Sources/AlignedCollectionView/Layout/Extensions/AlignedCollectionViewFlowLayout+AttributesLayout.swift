@@ -1,6 +1,6 @@
 import UIKit
 
-extension UICenteredCollectionViewFlowLayout {
+extension AlignedCollectionViewFlowLayout {
 	
 	public override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
 		guard

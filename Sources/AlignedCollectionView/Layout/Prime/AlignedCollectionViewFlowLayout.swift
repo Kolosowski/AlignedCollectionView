@@ -1,6 +1,6 @@
 import UIKit
 
-public final class UICenteredCollectionViewFlowLayout: UICollectionViewFlowLayout {
+public final class AlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
 	
 	// MARK: - Life Cycle
 	

@@ -1,6 +1,6 @@
 import UIKit
 
-extension UICenteredCollectionView {
+extension AlignedCollectionView {
 	
 	public override var intrinsicContentSize: CGSize {
 		let width = contentSize.width +

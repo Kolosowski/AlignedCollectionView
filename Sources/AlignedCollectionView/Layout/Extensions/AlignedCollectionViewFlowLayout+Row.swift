@@ -1,6 +1,6 @@
 import UIKit
 
-extension UICenteredCollectionViewFlowLayout {
+extension AlignedCollectionViewFlowLayout {
 	
 	final class Row {
 		
