@@ -22,7 +22,7 @@ final class ViewController: UIViewController {
 	let collectionView: AlignedCollectionView = {
 		let layout = AlignedCollectionViewFlowLayout()
 		layout.alignment = .right
-		layout.isAutomaticSize = true
+		layout.isAutomaticItemSize = true
 		layout.minimumInteritemSpacing = 15
 		layout.minimumLineSpacing = 20
 		return AlignedCollectionView(layout)

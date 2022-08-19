@@ -11,7 +11,7 @@ public final class AlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
 	
 	// MARK: - Computed Properties - Automatic Size
 	
-	public var isAutomaticSize: Bool {
+	public var isAutomaticItemSize: Bool {
 		get {
 			estimatedItemSize == UICollectionViewFlowLayout.automaticSize
 		}
