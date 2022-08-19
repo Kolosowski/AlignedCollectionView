@@ -35,10 +35,18 @@ extension AlignedCollectionViewFlowLayout {
 			attributes.append(attribute)
 		}
 		
-		func setupLayout(contentWidth: CGFloat) {
-			let padding = (contentWidth - rowWidth) / 2
-			var offset = padding
+		func setupLayout(contentWidth: CGFloat, alignment: Alignment) {
+			let padding: CGFloat
+			switch alignment {
+			case .left:
+				return
+			case .center:
+				padding = (contentWidth - rowWidth) / 2
+			case .right:
+				padding = contentWidth - rowWidth
+			}
 			
+			var offset = padding
 			attributes.forEach {
 				$0.frame.origin.x = offset
 				offset += $0.frame.width + interItemSpacing

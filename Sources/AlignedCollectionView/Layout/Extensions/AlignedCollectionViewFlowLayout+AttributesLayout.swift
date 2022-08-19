@@ -4,10 +4,11 @@ extension AlignedCollectionViewFlowLayout {
 	
 	public override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
 		guard
+			alignment != .left,
 			let attributes = super.layoutAttributesForElements(in: rect),
 			let collectionView = collectionView
 		else {
-			return nil
+			return super.layoutAttributesForElements(in: rect)
 		}
 		
 		var rows: [Row] = []
