@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "uicenteredcollectionview",
+      "identity" : "alignmentcollectionview",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Kolosowski/UICenteredCollectionView",
+      "location" : "https://github.com/Kolosowski/AlignmentCollectionView",
       "state" : {
         "branch" : "master",
-        "revision" : "e721a6a18a554473221ba3b107f21ecf588dee57"
+        "revision" : "b0122939858438cb4240c4809878a7be88a492e6"
       }
     }
   ],

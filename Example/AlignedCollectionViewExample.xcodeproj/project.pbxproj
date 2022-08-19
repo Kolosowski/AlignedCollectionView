@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7876D03428AF7A27009FBC4F /* AlignedCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = 7876D03328AF7A27009FBC4F /* AlignedCollectionView */; };
 		78E0FA2928AE6690005B47DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA2828AE6690005B47DE /* AppDelegate.swift */; };
 		78E0FA2D28AE6690005B47DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA2C28AE6690005B47DE /* ViewController.swift */; };
 		78E0FA3228AE6691005B47DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78E0FA3128AE6691005B47DE /* Assets.xcassets */; };
 		78E0FA3528AE6691005B47DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78E0FA3328AE6691005B47DE /* LaunchScreen.storyboard */; };
-		78E0FA4128AE7CD7005B47DE /* UICenteredCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = 78E0FA4028AE7CD7005B47DE /* UICenteredCollectionView */; };
 		78E0FA4828AE7E57005B47DE /* ViewController+SetupViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA4728AE7E57005B47DE /* ViewController+SetupViews.swift */; };
 		78E0FA4A28AE7E68005B47DE /* ViewController+SetupLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA4928AE7E68005B47DE /* ViewController+SetupLayout.swift */; };
 		78E0FA4C28AE7E7D005B47DE /* ViewController+UICollectionViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0FA4B28AE7E7D005B47DE /* ViewController+UICollectionViewDelegateFlowLayout.swift */; };
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78E0FA4128AE7CD7005B47DE /* UICenteredCollectionView in Frameworks */,
+				7876D03428AF7A27009FBC4F /* AlignedCollectionView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +165,7 @@
 			);
 			name = AlignedCollectionViewExample;
 			packageProductDependencies = (
-				78E0FA4028AE7CD7005B47DE /* UICenteredCollectionView */,
+				7876D03328AF7A27009FBC4F /* AlignedCollectionView */,
 			);
 			productName = UICenteredCollectionViewExample;
 			productReference = 78E0FA2528AE6690005B47DE /* AlignedCollectionViewExample.app */;
@@ -196,7 +196,7 @@
 			);
 			mainGroup = 78E0FA1C28AE6690005B47DE;
 			packageReferences = (
-				78E0FA3F28AE7CD7005B47DE /* XCRemoteSwiftPackageReference "UICenteredCollectionView" */,
+				7876D03228AF7A27009FBC4F /* XCRemoteSwiftPackageReference "AlignmentCollectionView" */,
 			);
 			productRefGroup = 78E0FA2628AE6690005B47DE /* Products */;
 			projectDirPath = "";
@@ -442,9 +442,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		78E0FA3F28AE7CD7005B47DE /* XCRemoteSwiftPackageReference "UICenteredCollectionView" */ = {
+		7876D03228AF7A27009FBC4F /* XCRemoteSwiftPackageReference "AlignmentCollectionView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Kolosowski/UICenteredCollectionView";
+			repositoryURL = "https://github.com/Kolosowski/AlignmentCollectionView";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -453,10 +453,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		78E0FA4028AE7CD7005B47DE /* UICenteredCollectionView */ = {
+		7876D03328AF7A27009FBC4F /* AlignedCollectionView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 78E0FA3F28AE7CD7005B47DE /* XCRemoteSwiftPackageReference "UICenteredCollectionView" */;
-			productName = UICenteredCollectionView;
+			package = 7876D03228AF7A27009FBC4F /* XCRemoteSwiftPackageReference "AlignmentCollectionView" */;
+			productName = AlignedCollectionView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

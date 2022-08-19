@@ -1,5 +1,5 @@
 import UIKit
-import UICenteredCollectionView
+import AlignedCollectionView
 
 final class ViewController: UIViewController {
 	
@@ -19,9 +19,14 @@ final class ViewController: UIViewController {
 	
 	// MARK: - Stored Properties - Views
 	
-	let collectionView: UICenteredCollectionView = .init(
-		.init(isAutomaticItemSize: true)
-	)
+	let collectionView: AlignedCollectionView = {
+		let layout = AlignedCollectionViewFlowLayout()
+		layout.alignment = .right
+		layout.isAutomaticSize = true
+		layout.minimumInteritemSpacing = 15
+		layout.minimumLineSpacing = 20
+		return AlignedCollectionView(layout)
+	}()
 	
 	// MARK: - Life Cycle
 	
