@@ -41,7 +41,7 @@ extension AlignedCollectionViewFlowLayout {
 			let padding: CGFloat
 			switch alignment {
 			case .left:
-				return
+				padding = .zero
 			case .center:
 				padding = (contentWidth - rowWidth) / 2
 			case .right:
