@@ -20,10 +20,8 @@ extension AlignedCollectionView {
 	public override func layoutSubviews() {
 		super.layoutSubviews()
 		
-		if contentSize.height < intrinsicContentSize.height {
+		if bounds.height < intrinsicContentSize.height {
 			invalidateIntrinsicContentSize()
-		} else if frame.height.isZero {
-			frame.size.height = intrinsicContentSize.height
 		}
 	}
 	
