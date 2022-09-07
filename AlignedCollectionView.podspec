@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = "AlignedCollectionView"
-    s.version = "1.1.1"
+    s.version = "1.1.2"
     s.summary = "Subclass of the UICollectionView instance with customized flow layout and dynamic size calculation"
     s.homepage = "https://github.com/Kolosowski/AlignedCollectionView"
     s.license = { :type => "MIT", :file => "LICENSE.md" }
