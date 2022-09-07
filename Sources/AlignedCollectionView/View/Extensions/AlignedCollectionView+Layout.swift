@@ -2,6 +2,12 @@ import UIKit
 
 extension AlignedCollectionView {
 	
+	public override var contentSize: CGSize {
+		didSet {
+			invalidateIntrinsicContentSize()
+		}
+	}
+	
 	public override var intrinsicContentSize: CGSize {
 		let width = contentSize.width +
 		contentInset.left +
@@ -15,14 +21,6 @@ extension AlignedCollectionView {
 			width: width,
 			height: height
 		)
-	}
-	
-	public override func layoutSubviews() {
-		super.layoutSubviews()
-		
-		if bounds.height < intrinsicContentSize.height {
-			invalidateIntrinsicContentSize()
-		}
 	}
 	
 }
